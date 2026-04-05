@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# 🚌 Vila Real - Mobilidade Urbana Inteligente
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Uma aplicação móvel moderna desenvolvida para revolucionar a forma como os utilizadores interagem com os transportes públicos. Esta app funciona como uma carteira digital e sistema de validação de bilhetes nativo, substituindo os tradicionais passes físicos.
 
-## Get started
+## ✨ Funcionalidades Principais
 
-1. Install dependencies
+* **🔒 Autenticação:** Interface de login fluída com opções de entrada por Email, Apple ou Google.
+* **💳 Carteira Digital:** Consulta de saldo em tempo real e histórico detalhado de viagens e carregamentos.
+* **⚡ Carregamentos Rápidos:** Sistema de recarga de saldo integrado com simulação MBWay.
+* **📷 Scanner de QR Code:** Acesso rápido à câmara nativa do telemóvel para leitura e validação de bilhetes nos autocarros.
+* **🛡️ Bilhete Anti-Fraude (Active Ticket):** Ecrã de validação seguro com relógio em tempo real e animações nativas para evitar capturas de ecrã falsas.
+* **🌙 Dark Mode:** Suporte nativo para Modo Claro e Escuro, adaptando-se às preferências do sistema do utilizador.
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tecnologias Utilizadas
 
-2. Start the app
+Este projeto foi construído de raiz com foco na performance e numa UI/UX de excelência:
 
-   ```bash
-   npx expo start
-   ```
+* **Framework:** [React Native](https://reactnative.dev/) com [Expo](https://expo.dev/)
+* **Navegação:** [React Navigation](https://reactnavigation.org/) (Native Stack)
+* **Estilização:** [NativeWind](https://www.nativewind.dev/) (Tailwind CSS para React Native)
+* **Ícones:** [Lucide React Native](https://lucide.dev/)
+* **Animações:** React Native `Animated` API
 
-In the output, you'll find options to open the app in a
+## 🚀 Como Executar Localmente
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Para testares este projeto no teu próprio computador e telemóvel, segue estes passos:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. **Clonar o repositório:**
 ```bash
-npm run reset-project
-```
+git clone [https://github.com/TEU_USERNAME/app-vilareal.git](https://github.com/TEU_USERNAME/app-vilareal.git)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Entrar na pasta do projeto:**
+```bash
+cd [nameofthefolder]
 
-## Learn more
+3. **Instalar dependências:**
+```bash
+npm install
 
-To learn more about developing your project with Expo, look at the following resources:
+4. **Arrancar com o servidor local**
+npx expo start
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Depois basta instalares a app Expo Go no teu telemóvel (iOS/Android) e leres o QR Code que aparece no terminal!
