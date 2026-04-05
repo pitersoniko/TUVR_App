@@ -28,16 +28,21 @@ Para testares este projeto no teu próprio computador e telemóvel, segue estes 
 1. **Clonar o repositório:**
 ```bash
 git clone [https://github.com/TEU_USERNAME/app-vilareal.git](https://github.com/TEU_USERNAME/app-vilareal.git)
+```
 
 2. **Entrar na pasta do projeto:**
 ```bash
-cd [nameofthefolder]
+cd app-vilareal
+```
 
-3. **Instalar dependências:**
+3. **Instalar as dependências:**
 ```bash
 npm install
+```
 
-4. **Arrancar com o servidor local**
-npx expo start
+4. **Arrancar com o servidor local:**
+```bash
+npx expo start -c
+```
+*Depois basta instalares a app **Expo Go** no teu telemóvel (iOS/Android) e leres o QR Code que aparece no terminal!*
 
-Depois basta instalares a app Expo Go no teu telemóvel (iOS/Android) e leres o QR Code que aparece no terminal!
